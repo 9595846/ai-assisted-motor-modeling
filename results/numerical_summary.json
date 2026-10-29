@@ -1,0 +1,159 @@
+{
+  "fit": {
+    "beta": [
+      306.00000000000028,
+      -144.00000000000014,
+      -170.00000000000026,
+      186.66666666666669,
+      172.00000000000011,
+      268.00000000000011
+    ],
+    "rmse": 3.6055512754639958,
+    "r2": 0.99981529426622884,
+    "maxRelativeError": 0.018888888888889521,
+    "looRMSE": 7.2804480562867884,
+    "bestSpeed": 500,
+    "minEnergy": 0.0081272429339032445
+  },
+  "thermal": {
+    "R": 0.060041390033662718,
+    "C": 12002.500548794142,
+    "tau": 720.64681682939988,
+    "rmse": 0.024044973596059237,
+    "Roff": 0.12008278006732544
+  },
+  "summary": [
+    {
+      "Scenario": "baseline",
+      "Energy_kWh": 53.54729517058481,
+      "Cost_yuan": 40.181471377938614,
+      "MaxTemp_C": 66.074982048584474,
+      "Production": 5000,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": null,
+      "RelativeGap": null,
+      "MaxConstraintViolation": null
+    },
+    {
+      "Scenario": "nominal",
+      "Energy_kWh": 52.406646843323827,
+      "Cost_yuan": 34.218699053241096,
+      "MaxTemp_C": 89.998235668979092,
+      "Production": 5000,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": 2,
+      "RelativeGap": 0.0014919732311216031,
+      "MaxConstraintViolation": 1.411137873219559E-11
+    },
+    {
+      "Scenario": "fine_speed_grid",
+      "Energy_kWh": 52.175617374507866,
+      "Cost_yuan": 34.188969406920123,
+      "MaxTemp_C": 89.94697485492955,
+      "Production": 5000,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": 2,
+      "RelativeGap": 0.0021145275326291944,
+      "MaxConstraintViolation": 2.7000623958883807E-13
+    },
+    {
+      "Scenario": "nominal_replayed_worst",
+      "Energy_kWh": 57.633316348100649,
+      "Cost_yuan": 37.628925649731862,
+      "MaxTemp_C": 106.95204622554019,
+      "Production": 5000,
+      "Starts": 1,
+      "Feasible": 0,
+      "Exitflag": null,
+      "RelativeGap": null,
+      "MaxConstraintViolation": null
+    },
+    {
+      "Scenario": "hot_35C",
+      "Energy_kWh": 52.295617374507877,
+      "Cost_yuan": 34.284712697582393,
+      "MaxTemp_C": 89.712719031159182,
+      "Production": 5000,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": 2,
+      "RelativeGap": 0.00022200391184705448,
+      "MaxConstraintViolation": 4.5474735088646412E-12
+    },
+    {
+      "Scenario": "load_plus10",
+      "Energy_kWh": 57.423729887485,
+      "Cost_yuan": 37.569577136791011,
+      "MaxTemp_C": 89.955967041874,
+      "Production": 5000,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": 2,
+      "RelativeGap": 0.0024523038134845227,
+      "MaxConstraintViolation": 3.4106051316484809E-13
+    },
+    {
+      "Scenario": "order_5500",
+      "Energy_kWh": 58.587895020860088,
+      "Cost_yuan": 39.611131640785757,
+      "MaxTemp_C": 89.924772430795315,
+      "Production": 5500,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": 2,
+      "RelativeGap": 0.00054131659147235224,
+      "MaxConstraintViolation": 2.2044588376957108E-11
+    },
+    {
+      "Scenario": "robust_worst",
+      "Energy_kWh": 64.093681988474927,
+      "Cost_yuan": 44.090949877880014,
+      "MaxTemp_C": 89.965022606754147,
+      "Production": 5500,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": 2,
+      "RelativeGap": 0.0031524364048902205,
+      "MaxConstraintViolation": 4.5830006456526462E-13
+    },
+    {
+      "Scenario": "robust_extended",
+      "Energy_kWh": 63.29251948187926,
+      "Cost_yuan": 43.20713695560319,
+      "MaxTemp_C": 89.996601041200009,
+      "Production": 5500,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": 2,
+      "RelativeGap": 0.0087149100667545248,
+      "MaxConstraintViolation": 1.2345992672635475E-8
+    },
+    {
+      "Scenario": "robust_upgraded",
+      "Energy_kWh": 64.831322479922292,
+      "Cost_yuan": 43.87461896424675,
+      "MaxTemp_C": 89.986767171559535,
+      "Production": 5500,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": 2,
+      "RelativeGap": 0.0042042521891711808,
+      "MaxConstraintViolation": 1.8076207197736949E-10
+    },
+    {
+      "Scenario": "robust_both",
+      "Energy_kWh": 63.858599940552693,
+      "Cost_yuan": 43.043256169117321,
+      "MaxTemp_C": 89.993259710207184,
+      "Production": 5500,
+      "Starts": 1,
+      "Feasible": 1,
+      "Exitflag": 2,
+      "RelativeGap": 0.0055442371801879249,
+      "MaxConstraintViolation": 7.6481030104925934E-13
+    }
+  ]
+}

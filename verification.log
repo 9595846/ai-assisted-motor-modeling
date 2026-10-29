@@ -1,0 +1,23 @@
+[警告: 无法加载工具箱路径缓存 C:\Users\USER\AppData\Local\MathWorks\MATLAB\R2024a\toolbox_cache-24.1.0-34409603-win64.xml。该缓存文件的格式不正确。退出 MATLAB 时将重新生成该文件。] 
+
+ANALYZER run_motor_modeling.m
+
+ANALYZER verify_motor_results.m
+
+ANALYZER write_motor_report.m
+         labels          maxODEError    originalDeadline    deliveryPass    durationPass
+    _________________    ___________    ________________    ____________    ____________
+
+    "baseline"           3.4512e-10           5000             true            true     
+    "nominal"            3.9007e-10           5000             true            true     
+    "fine_speed_grid"    3.9161e-10           5000             true            true     
+    "hot_35C"            1.4849e-10           5000             true            true     
+    "load_plus10"        3.6925e-10           5000             true            true     
+    "order_5500"         2.4507e-10           5500             true            true     
+    "robust_worst"        3.391e-10           5500             true            true     
+    "robust_extended"    3.6412e-10           5230             true            true     
+    "robust_upgraded"    4.9556e-10           5500             true            true     
+    "robust_both"         5.963e-10           5250             true            true     
+
+Independent verification passed for 10 schedules and 27 robust scenarios.
+Report written. Fan-off critical speed 1009.240212 r/min.

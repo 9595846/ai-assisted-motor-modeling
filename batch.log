@@ -1,0 +1,126 @@
+[警告: 无法加载工具箱路径缓存 C:\Users\USER\AppData\Local\MathWorks\MATLAB\R2024a\toolbox_cache-24.1.0-34409603-win64.xml。该缓存文件的格式不正确。退出 MATLAB 时将重新生成该文件。] 
+  包含以下字段的 2x1 struct 数组:
+
+    id
+    message
+    fix
+    line
+    column
+
+MATLAB 24.1.0.2537033 (R2024a)
+Loss beta = 306 -144 -170 186.666667 172 268 
+                beta: [6x1 double]
+                rmse: 3.6056
+                  r2: 0.9998
+    maxRelativeError: 0.0189
+             looRMSE: 7.2804
+           bestSpeed: 500
+           minEnergy: 0.0081
+
+Thermal R=0.060041390 K/W C=12002.5005 J/K tau=12.01078 min RMSE=0.024045 C
+
+Solving nominal ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 90。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+nominal: cost 34.218699 energy 52.406647 Tmax 89.998236 starts 1 flag 2 gap 0.00149197
+
+Solving fine_speed_grid ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 90。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+fine_speed_grid: cost 34.188969 energy 52.175617 Tmax 89.946975 starts 1 flag 2 gap 0.00211453
+
+Solving hot_35C ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 90。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+hot_35C: cost 34.284713 energy 52.295617 Tmax 89.712719 starts 1 flag 2 gap 0.000222004
+
+Solving load_plus10 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 90。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+load_plus10: cost 37.569577 energy 57.423730 Tmax 89.955967 starts 1 flag 2 gap 0.0024523
+
+Solving order_5500 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 90。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+order_5500: cost 39.611132 energy 58.587895 Tmax 89.924772 starts 1 flag 2 gap 0.000541317
+
+Solving robust_worst ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 90。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+robust_worst: cost 44.090950 energy 64.093682 Tmax 89.965023 starts 1 flag 2 gap 0.00315244
+
+Solving robust_extended ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 90。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+robust_extended: cost 43.207137 energy 63.292519 Tmax 89.996601 starts 1 flag 2 gap 0.00871491
+
+Solving robust_upgraded ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 90。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+robust_upgraded: cost 43.874619 energy 64.831322 Tmax 89.986767 starts 1 flag 2 gap 0.00420425
+
+Solving robust_both ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 90。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+robust_both: cost 43.043256 energy 63.858600 Tmax 89.993260 starts 1 flag 2 gap 0.00554424
+            Scenario            Energy_kWh    Cost_yuan    MaxTemp_C    Production    Starts    Feasible    Exitflag    RelativeGap    MaxConstraintViolation
+    ________________________    __________    _________    _________    __________    ______    ________    ________    ___________    ______________________
+
+    "baseline"                    53.547       40.181       66.075         5000         1          1          NaN              NaN                  NaN      
+    "nominal"                     52.407       34.219       89.998         5000         1          1            2         0.001492           1.4111e-11      
+    "fine_speed_grid"             52.176       34.189       89.947         5000         1          1            2        0.0021145           2.7001e-13      
+    "nominal_replayed_worst"      57.633       37.629       106.95         5000         1          0          NaN              NaN                  NaN      
+    "hot_35C"                     52.296       34.285       89.713         5000         1          1            2         0.000222           4.5475e-12      
+    "load_plus10"                 57.424        37.57       89.956         5000         1          1            2        0.0024523           3.4106e-13      
+    "order_5500"                  58.588       39.611       89.925         5500         1          1            2       0.00054132           2.2045e-11      
+    "robust_worst"                64.094       44.091       89.965         5500         1          1            2        0.0031524            4.583e-13      
+    "robust_extended"             63.293       43.207       89.997         5500         1          1            2        0.0087149           1.2346e-08      
+    "robust_upgraded"             64.831       43.875       89.987         5500         1          1            2        0.0042043           1.8076e-10      
+    "robust_both"                 63.859       43.043       89.993         5500         1          1            2        0.0055442           7.6481e-13      
+
+Finished. Results: C:\Users\USER\documents\ChatGPT\matlab\motor_modeling\results

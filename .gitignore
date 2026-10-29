@@ -1,0 +1,11 @@
+*.asv
+*.m~
+__pycache__/
+.DS_Store
+Thumbs.db
+.env
+*.key
+*_checkpoint.mat
+checkpoint.mat
+render*/
+~$*

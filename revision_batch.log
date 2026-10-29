@@ -1,0 +1,248 @@
+[警告: 无法加载工具箱路径缓存 C:\Users\USER\AppData\Local\MathWorks\MATLAB\R2024a\toolbox_cache-24.1.0-34409603-win64.xml。该缓存文件的格式不正确。退出 MATLAB 时将重新生成该文件。] 
+
+Solving joint90 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 60。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+joint90: cost 34.188969 energy 52.175617 Tmax 89.946975 starts 1 flag 2 gap 0.00206827
+    Experiment    Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    __________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"       90          5            21         34.189          34.118           0.20683        52.176       89.947         135            28              9             60.897       3.8619e-10       2    
+
+
+Solving margin89 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 60。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+margin89: cost 34.194111 energy 52.186604 Tmax 88.537423 starts 1 flag 2 gap 0.00235216
+    Experiment    Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    __________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"       90          5            21         34.189          34.118           0.20683        52.176       89.947         135            28              9             60.897       3.8619e-10       2    
+    "margin89"      89          5            21         34.194          34.114           0.23522        52.187       88.537         140            28              6             60.138       3.9132e-10       2    
+
+
+Solving margin88 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 60。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+margin88: cost 34.205111 energy 52.206604 Tmax 87.937658 starts 1 flag 2 gap 0.00237573
+    Experiment    Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    __________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"       90          5            21         34.189          34.118           0.20683        52.176       89.947         135            28              9             60.897       3.8619e-10       2    
+    "margin89"      89          5            21         34.194          34.114           0.23522        52.187       88.537         140            28              6             60.138       3.9132e-10       2    
+    "margin88"      88          5            21         34.205          34.124           0.23757        52.207       87.938         150            26              9               60.1       3.7917e-10       2    
+
+
+Solving margin87 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 60。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+margin87: cost 34.219969 energy 52.235617 Tmax 86.956527 starts 1 flag 2 gap 0.00159006
+    Experiment    Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    __________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"       90          5            21         34.189          34.118           0.20683        52.176       89.947         135            28               9            60.897       3.8619e-10       2    
+    "margin89"      89          5            21         34.194          34.114           0.23522        52.187       88.537         140            28               6            60.138       3.9132e-10       2    
+    "margin88"      88          5            21         34.205          34.124           0.23757        52.207       87.938         150            26               9              60.1       3.7917e-10       2    
+    "margin87"      87          5            21          34.22          34.166           0.15901        52.236       86.957         165            20              10            60.095       3.1588e-10       2    
+
+
+Solving margin85 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 60。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+margin85: cost 34.235469 energy 52.265617 Tmax 84.663784 starts 1 flag 2 gap 0.00259809
+    Experiment    Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    __________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"       90          5            21         34.189          34.118           0.20683        52.176       89.947         135            28               9            60.897       3.8619e-10       2    
+    "margin89"      89          5            21         34.194          34.114           0.23522        52.187       88.537         140            28               6            60.138       3.9132e-10       2    
+    "margin88"      88          5            21         34.205          34.124           0.23757        52.207       87.938         150            26               9              60.1       3.7917e-10       2    
+    "margin87"      87          5            21          34.22          34.166           0.15901        52.236       86.957         165            20              10            60.095       3.1588e-10       2    
+    "margin85"      85          5            21         34.235          34.147           0.25981        52.266       84.664         180            18              13            60.193       2.9073e-10       2    
+
+
+Solving fixed_speed_fan_optimized ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 60。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+fixed_speed_fan_optimized: cost 39.649471 energy 52.877295 Tmax 89.999464 starts 1 flag 2 gap 0.000226989
+            Experiment             Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    ___________________________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"                        90          5            21         34.189          34.118           0.20683        52.176       89.947         135            28               9            60.897       3.8619e-10       2    
+    "margin89"                       89          5            21         34.194          34.114           0.23522        52.187       88.537         140            28               6            60.138       3.9132e-10       2    
+    "margin88"                       88          5            21         34.205          34.124           0.23757        52.207       87.938         150            26               9              60.1       3.7917e-10       2    
+    "margin87"                       87          5            21          34.22          34.166           0.15901        52.236       86.957         165            20              10            60.095       3.1588e-10       2    
+    "margin85"                       85          5            21         34.235          34.147           0.25981        52.266       84.664         180            18              13            60.193       2.9073e-10       2    
+    "fixed_speed_fan_optimized"      90          5            21         39.649           39.64          0.022699        52.877       89.999         145            54               1            60.046       4.3595e-10       2    
+
+
+Solving speed_optimized_fan_on ...
+
+将使用 intlinprog 求解问题。
+
+找到最优解。
+
+Intlinprog 在根节点处停止，因为目标值在最优值的间隙容差范围内，options.AbsoluteGapTolerance = 1e-06。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+speed_optimized_fan_on: cost 34.791469 energy 52.865617 Tmax 76.994444 starts 1 flag 1 gap 0
+            Experiment             Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    ___________________________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"                        90          5            21         34.189          34.118           0.20683        52.176       89.947         135            28               9             60.897      3.8619e-10       2    
+    "margin89"                       89          5            21         34.194          34.114           0.23522        52.187       88.537         140            28               6             60.138      3.9132e-10       2    
+    "margin88"                       88          5            21         34.205          34.124           0.23757        52.207       87.938         150            26               9               60.1      3.7917e-10       2    
+    "margin87"                       87          5            21          34.22          34.166           0.15901        52.236       86.957         165            20              10             60.095      3.1588e-10       2    
+    "margin85"                       85          5            21         34.235          34.147           0.25981        52.266       84.664         180            18              13             60.193      2.9073e-10       2    
+    "fixed_speed_fan_optimized"      90          5            21         39.649           39.64          0.022699        52.877       89.999         145            54               1             60.046      4.3595e-10       2    
+    "speed_optimized_fan_on"         90          5            21         34.791          34.791                 0        52.866       76.994         480             0               9           0.060687      5.2363e-10       1    
+
+
+Solving time10 ...
+
+将使用 intlinprog 求解问题。
+
+找到最优解。
+
+Intlinprog 已停止，因为目标值在最佳值的间隙容差范围内，options.RelativeGapTolerance = 0.0001。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+time10: cost 34.223381 energy 52.109182 Tmax 89.768839 starts 1 flag 1 gap 9.94283e-05
+            Experiment             Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    ___________________________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"                        90           5           21         34.189          34.118            0.20683       52.176       89.947         135            28               9             60.897      3.8619e-10       2    
+    "margin89"                       89           5           21         34.194          34.114            0.23522       52.187       88.537         140            28               6             60.138      3.9132e-10       2    
+    "margin88"                       88           5           21         34.205          34.124            0.23757       52.207       87.938         150            26               9               60.1      3.7917e-10       2    
+    "margin87"                       87           5           21          34.22          34.166            0.15901       52.236       86.957         165            20              10             60.095      3.1588e-10       2    
+    "margin85"                       85           5           21         34.235          34.147            0.25981       52.266       84.664         180            18              13             60.193      2.9073e-10       2    
+    "fixed_speed_fan_optimized"      90           5           21         39.649           39.64           0.022699       52.877       89.999         145            54               1             60.046      4.3595e-10       2    
+    "speed_optimized_fan_on"         90           5           21         34.791          34.791                  0       52.866       76.994         480             0               9           0.060687      5.2363e-10       1    
+    "time10"                         90          10           21         34.223           34.22          0.0099428       52.109       89.769         160            12              17             7.8524      6.6543e-09       1    
+
+
+Solving time2p5 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 60。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+time2p5: cost 34.188969 energy 52.175617 Tmax 89.946975 starts 1 flag 2 gap 0.00329819
+            Experiment             Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    ___________________________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"                        90           5           21         34.189          34.118            0.20683       52.176       89.947         135            28               9             60.897      3.8619e-10       2    
+    "margin89"                       89           5           21         34.194          34.114            0.23522       52.187       88.537         140            28               6             60.138      3.9132e-10       2    
+    "margin88"                       88           5           21         34.205          34.124            0.23757       52.207       87.938         150            26               9               60.1      3.7917e-10       2    
+    "margin87"                       87           5           21          34.22          34.166            0.15901       52.236       86.957         165            20              10             60.095      3.1588e-10       2    
+    "margin85"                       85           5           21         34.235          34.147            0.25981       52.266       84.664         180            18              13             60.193      2.9073e-10       2    
+    "fixed_speed_fan_optimized"      90           5           21         39.649           39.64           0.022699       52.877       89.999         145            54               1             60.046      4.3595e-10       2    
+    "speed_optimized_fan_on"         90           5           21         34.791          34.791                  0       52.866       76.994         480             0               9           0.060687      5.2363e-10       1    
+    "time10"                         90          10           21         34.223           34.22          0.0099428       52.109       89.769         160            12              17             7.8524      6.6543e-09       1    
+    "time2p5"                        90         2.5           21         34.189          34.076            0.32982       52.176       89.947         135            28               9             60.203      1.1667e-11       2    
+
+
+Solving speed100 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 60。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+speed100: cost 34.218699 energy 52.406647 Tmax 89.998236 starts 1 flag 2 gap 0.000669862
+            Experiment             Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    ___________________________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"                        90           5           21         34.189          34.118            0.20683       52.176       89.947         135            28               9             60.897      3.8619e-10       2    
+    "margin89"                       89           5           21         34.194          34.114            0.23522       52.187       88.537         140            28               6             60.138      3.9132e-10       2    
+    "margin88"                       88           5           21         34.205          34.124            0.23757       52.207       87.938         150            26               9               60.1      3.7917e-10       2    
+    "margin87"                       87           5           21          34.22          34.166            0.15901       52.236       86.957         165            20              10             60.095      3.1588e-10       2    
+    "margin85"                       85           5           21         34.235          34.147            0.25981       52.266       84.664         180            18              13             60.193      2.9073e-10       2    
+    "fixed_speed_fan_optimized"      90           5           21         39.649           39.64           0.022699       52.877       89.999         145            54               1             60.046      4.3595e-10       2    
+    "speed_optimized_fan_on"         90           5           21         34.791          34.791                  0       52.866       76.994         480             0               9           0.060687      5.2363e-10       1    
+    "time10"                         90          10           21         34.223           34.22          0.0099428       52.109       89.769         160            12              17             7.8524      6.6543e-09       1    
+    "time2p5"                        90         2.5           21         34.189          34.076            0.32982       52.176       89.947         135            28               9             60.203      1.1667e-11       2    
+    "speed100"                       90           5           12         34.219          34.196           0.066986       52.407       89.998         140            28              13             60.043      3.9559e-10       2    
+
+
+Solving speed25 ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 60。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+speed25: cost 34.187653 energy 52.189925 Tmax 89.969847 starts 1 flag 2 gap 0.0021821
+            Experiment             Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    ___________________________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"                        90           5           21         34.189          34.118            0.20683       52.176       89.947         135            28               9             60.897      3.8619e-10       2    
+    "margin89"                       89           5           21         34.194          34.114            0.23522       52.187       88.537         140            28               6             60.138      3.9132e-10       2    
+    "margin88"                       88           5           21         34.205          34.124            0.23757       52.207       87.938         150            26               9               60.1      3.7917e-10       2    
+    "margin87"                       87           5           21          34.22          34.166            0.15901       52.236       86.957         165            20              10             60.095      3.1588e-10       2    
+    "margin85"                       85           5           21         34.235          34.147            0.25981       52.266       84.664         180            18              13             60.193      2.9073e-10       2    
+    "fixed_speed_fan_optimized"      90           5           21         39.649           39.64           0.022699       52.877       89.999         145            54               1             60.046      4.3595e-10       2    
+    "speed_optimized_fan_on"         90           5           21         34.791          34.791                  0       52.866       76.994         480             0               9           0.060687      5.2363e-10       1    
+    "time10"                         90          10           21         34.223           34.22          0.0099428       52.109       89.769         160            12              17             7.8524      6.6543e-09       1    
+    "time2p5"                        90         2.5           21         34.189          34.076            0.32982       52.176       89.947         135            28               9             60.203      1.1667e-11       2    
+    "speed100"                       90           5           12         34.219          34.196           0.066986       52.407       89.998         140            28              13             60.043      3.9559e-10       2    
+    "speed25"                        90           5           41         34.188          34.113            0.21821        52.19        89.97         135            28              11             60.054      3.9867e-10       2    
+
+
+Solving joint90_long ...
+
+将使用 intlinprog 求解问题。
+
+求解器过早停止。找到整数可行点。
+
+Intlinprog 已停止，因为它超出了时间限制，options.MaxTime = 180。intcon 变量是容差范围内的整数，options.ConstraintTolerance = 1e-06。
+
+joint90_long: cost 34.188969 energy 52.175617 Tmax 89.946975 starts 1 flag 2 gap 0.000745548
+            Experiment             Limit_C    Step_min    SpeedCount    Cost_yuan    LowerBound_yuan    Gap_percent    Energy_kWh    MaxTemp_C    FanMinutes    FanSwitches    SpeedChanges    SolveSeconds    ODEError_C    Exitflag
+    ___________________________    _______    ________    __________    _________    _______________    ___________    __________    _________    __________    ___________    ____________    ____________    __________    ________
+
+    "joint90"                        90           5           21         34.189          34.118            0.20683       52.176       89.947         135            28               9             60.897      3.8619e-10       2    
+    "margin89"                       89           5           21         34.194          34.114            0.23522       52.187       88.537         140            28               6             60.138      3.9132e-10       2    
+    "margin88"                       88           5           21         34.205          34.124            0.23757       52.207       87.938         150            26               9               60.1      3.7917e-10       2    
+    "margin87"                       87           5           21          34.22          34.166            0.15901       52.236       86.957         165            20              10             60.095      3.1588e-10       2    
+    "margin85"                       85           5           21         34.235          34.147            0.25981       52.266       84.664         180            18              13             60.193      2.9073e-10       2    
+    "fixed_speed_fan_optimized"      90           5           21         39.649           39.64           0.022699       52.877       89.999         145            54               1             60.046      4.3595e-10       2    
+    "speed_optimized_fan_on"         90           5           21         34.791          34.791                  0       52.866       76.994         480             0               9           0.060687      5.2363e-10       1    
+    "time10"                         90          10           21         34.223           34.22          0.0099428       52.109       89.769         160            12              17             7.8524      6.6543e-09       1    
+    "time2p5"                        90         2.5           21         34.189          34.076            0.32982       52.176       89.947         135            28               9             60.203      1.1667e-11       2    
+    "speed100"                       90           5           12         34.219          34.196           0.066986       52.407       89.998         140            28              13             60.043      3.9559e-10       2    
+    "speed25"                        90           5           41         34.188          34.113            0.21821        52.19        89.97         135            28              11             60.054      3.9867e-10       2    
+    "joint90_long"                   90           5           21         34.189          34.163           0.074555       52.176       89.947         135            28               9             180.07      3.8619e-10       2    
+
+Revision experiments complete: 12 verified plans
